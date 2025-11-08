@@ -1,0 +1,11 @@
+[project]
+name = "api-test"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi[standard]>=0.121.0",
+    "opentelemetry-distro>=0.59b0",
+    "opentelemetry-exporter-otlp>=1.38.0",
+]
